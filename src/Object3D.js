@@ -175,9 +175,21 @@ class Object3D {
 
     }
 
+    getVertexData () {
+
+        return this.getData('a_Position');
+
+    }
+
     setIndices ( data ) {
 
         this.setData(INDICES, new Uint32Array(data));
+
+    }
+
+    getIndices () {
+
+        return this.getData(INDICES);
 
     }
 
