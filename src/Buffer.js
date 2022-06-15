@@ -59,9 +59,8 @@ class Buffer {
             this.#data.element = data;
             const isIndices = this.#type === 'indices';
 
-            const target = isIndices ? G.ELEMENT_ARRAY_BUFFER : G.ARRAY_BUFFER;
             const buffer = this.#buffer;
-
+            const target = isIndices ? G.ELEMENT_ARRAY_BUFFER : G.ARRAY_BUFFER;
             const usage = isIndices ? G.STATIC_DRAW : G.STREAM_DRAW;
 
             G.bindBuffer(target, buffer);
