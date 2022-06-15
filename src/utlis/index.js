@@ -9,7 +9,7 @@ import {
     VARIABLE_TYPE,
     INDICES
 
-} from './enum'
+} from './constants'
 
 export {
 
