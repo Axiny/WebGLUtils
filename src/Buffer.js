@@ -11,7 +11,7 @@ class Buffer {
     #pointer = { size : 3, type : 0 }
     #data = { element : null, type : null }
 
-    constructor (gl, type) {
+    constructor ( gl, type ) {
 
         this.#gl = gl;
         this.#type = type;
