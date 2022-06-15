@@ -1,6 +1,5 @@
 import WebGLContainer from "./WebGLContainer";
 import Scene from "./Scene";
-import Object3D from "./Object3D";
 import { Log } from "./utils";
 
 const log = new Log('WebGLRender');
