@@ -45,7 +45,7 @@ class ShaderSource {
 
     output () {
 
-        const precision = `precision ${ this.#precision } float;`;
+        const precision = `precision ${this.#precision} float;`;
         this.#defines = precision.concat(this.#defines);
 
         return this.#generate();
@@ -82,11 +82,11 @@ class ShaderSource {
 
         const source = `
 
-        ${ this.#defines }
+        ${this.#defines}
 
         void main () {
 
-            ${ this.#mainProcess }
+            ${this.#mainProcess}
 
         }
 
