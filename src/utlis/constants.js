@@ -2,7 +2,7 @@ const PRECISION = {
 
     HIGHT : 'highp',
     MIDDLE : 'mediump',
-    LOW : 'float'
+    LOW : 'lowp'
 
 }
 
